@@ -1,0 +1,72 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		display: inline-block;
+		// transition: all .2s;
+		position: relative;
+		font-size: 6rem;
+        color: $color-gray-light-3;
+
+		cursor: pointer;
+	}
+	
+	&:hover {
+		transform: translateY(-3px);
+		
+		&::after {
+			transform: scaleX(1.4) scaleY(1.6); 
+			opacity: 0;
+		}
+	}
+	
+	&:active,
+	&:focus {
+		outline: none;
+		transform: translateY(-1px);
+		box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+    }
+    
+    &__label {
+        font-size: $default-font-size;
+        color: $color-white;
+    }
+	
+	// &--white {
+	// 	background-color: $color-white;
+	// 	color: $color-gray-dark;
+		
+	// 	&::after {
+	// 		background-color: $color-white;
+	// 	}
+	// }
+
+	// &--green {
+	// 	background-color: $color-primary;
+	// 	color: $color-white;
+		
+	// 	&::after {
+	// 		background-color: $color-primary;
+	// 	}
+    // }
+    
+    // &--circle {
+    //     font-size: 6rem;
+    //     display: block;
+    // }
+	
+	// &::after {
+	// 	content: "";
+	// 	display: inline-block; /* Because the button that we have is also an inline block*/
+	// 	height: 100%;
+	// 	width: 100%;
+	// 	border-radius: 10rem;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	z-index: -1;
+	// 	transition: all .4s;
+	// }
+	
+}
+
