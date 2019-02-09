@@ -1,0 +1,14 @@
+.bg-rectangle {
+    background-color: $color-secondary-dark;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100% + 15vh);
+    width: 100%;
+    opacity: .7;
+    overflow: hidden;
+    margin-top: -15vh;
+    
+    
+
+}

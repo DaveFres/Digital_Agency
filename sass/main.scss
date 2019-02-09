@@ -5,9 +5,13 @@
 @import "base/typography";
 @import "base/utilities";
 
-
-@import "components/navigation";
+@import "components/bg-rectangle";
 @import "components/button";
+@import "components/feature-box";
+@import "components/ih-group";
+@import "components/navigation";
 
-
+@import "layout/grid";
 @import "layout/header";
+
+@import "pages/home";

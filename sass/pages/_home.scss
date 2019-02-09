@@ -1,0 +1,10 @@
+.section-features {
+    padding: 10rem 0;
+    background-color: $color-black;
+    position: relative;
+    
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
